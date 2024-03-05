@@ -1,0 +1,36 @@
+* {
+    position: relative;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    font-size: 24px;
+    font-family: 'Roboto';
+    background-color: rgba(226, 162, 255, 0.452);
+    width: 4em;
+    height: 2em;
+    left: 42%;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    padding: 5px 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #ca20f5;
+    text-transform: uppercase;
+    text-align: center;
+
+}

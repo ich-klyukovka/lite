@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>site</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Я тебе нравлюсь?</h1>
+    <div class="text-box">
+        <button id="yes" onclick="Message()" ><a>Да</a></button>
+        <button id="no" onclick="moveButton()"><a>Нет</a></button>
+    </div>
+    <script>
+        function Message()
+        {
+            alert("И ты мне :D");
+        }
+        </script>
+    <script>
+        function moveButton(){
+            var x = Math.random() * ((window.innerWidth-200)-0);
+            var y = Math.random() * ((window.innerHeight-200)-0)
+            document.getElementById('no').style.left=x+'px';
+            document.getElementById('no').style.top=y+'px';
+        }
+    </script>
+</body>
+</html>
